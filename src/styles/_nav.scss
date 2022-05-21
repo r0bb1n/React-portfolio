@@ -1,0 +1,22 @@
+nav {
+    background-color: black;
+    width: 100%;
+}
+
+.navList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    font-size: 30px;
+}
+
+.links {
+    margin: 15px;
+    color: white;
+}
+
+.links:hover {
+    color: green;
+}
+

@@ -1,0 +1,20 @@
+
+.container {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__right {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.home__text {
+    background-color: azure;
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+}

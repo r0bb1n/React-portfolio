@@ -1,0 +1,16 @@
+.butt {
+    width: 200px;
+    height: 45px;
+    border: 3px solid green;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 25px;
+    text-align: center;
+    background-color: white;
+}
+
+.butt:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
