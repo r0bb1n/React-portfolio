@@ -79,6 +79,36 @@ nav {
   text-align: center;
 }
 
+.aboutPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 90vh;
+}
+
+.containerAbout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .butt {
   width: 200px;
   height: 45px;
@@ -94,6 +124,78 @@ nav {
   background-color: green;
   color: white;
   cursor: pointer;
+}
+
+.contactPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 90vh;
+}
+
+.contact {
+  background-color: azure;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: auto;
+  max-width: 750px;
+}
+
+.contactForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 500px;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: auto;
+  max-width: 750px;
+}
+
+.submit {
+  background-color: white;
+  border: 2px solid green;
+}
+
+.submit:hover {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+.typing {
+  background-color: azure;
+}
+
+.message {
+  font-size: 25px;
+  margin-top: 25px;
 }
 
 * {
@@ -119,6 +221,16 @@ body {
 .modalBtn {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
+}
+
+label {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
+input {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
 }
 
 .overlay {
